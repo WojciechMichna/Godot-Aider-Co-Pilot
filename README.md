@@ -24,14 +24,10 @@ The model list is currently fixed in `addons/aider_wrapper/tool_panel.gd`.
 ## Videos
 
 ### Installation and usage
-
-Changing a script with `gpt-oss`.
 [Aider OpenAI.webm](https://github.com/user-attachments/assets/b0655f6b-e5c1-4cca-b91e-fd3ad40f847f)
 
 
 ### Entity creation demo
-
-Adding an entity with `trinity-large-thinking`.
 [Trinity Add Entity.webm](https://github.com/user-attachments/assets/1f2de28d-1464-404f-877b-4389fee10ccf)
 
 

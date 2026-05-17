@@ -1,0 +1,86 @@
+[gd_scene format=3 uid="uid://drwk1m7fs85hp"]
+
+[ext_resource type="Script" uid="uid://bcb3a0coxfudo" path="res://addons/aider_wrapper/tool_panel.gd" id="1_panel"]
+
+[node name="ToolPanel" type="Control" unique_id=1103795282]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -713.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_panel")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1663785468]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.5
+offset_right = 1.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Trigger2" type="Button" parent="VBoxContainer" unique_id=1855718308]
+unique_name_in_owner = true
+layout_mode = 2
+disabled = true
+text = "Run"
+
+[node name="Tree" type="Tree" parent="VBoxContainer" unique_id=2003740001]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+hide_root = true
+
+[node name="ApiKeyLabel" type="Label" parent="VBoxContainer" unique_id=2104857601]
+layout_mode = 2
+text = "Open Router API Key"
+
+[node name="ApiKeyInput" type="LineEdit" parent="VBoxContainer" unique_id=2104857602]
+unique_name_in_owner = true
+layout_mode = 2
+text = ""
+placeholder_text = "Paste your API key..."
+secret = true
+
+[node name="ModelLabel" type="Label" parent="VBoxContainer" unique_id=122210001]
+layout_mode = 2
+text = "Model"
+
+[node name="ModelSelect" type="OptionButton" parent="VBoxContainer" unique_id=122210002]
+unique_name_in_owner = true
+layout_mode = 2
+selected = 0
+item_count = 4
+popup/item_0/text = "openrouter/openai/gpt-oss-120b:free"
+popup/item_0/id = 0
+popup/item_1/text = "openrouter/nvidia/nemotron-3-super-120b-a12b:free"
+popup/item_1/id = 1
+popup/item_2/text = "openrouter/arcee-ai/trinity-large-thinking:free"
+popup/item_2/id = 2
+popup/item_3/text = "openrouter/deepseek/deepseek-v4-flash:free"
+popup/item_3/id = 3
+
+[node name="ApiKeyLabel2" type="Label" parent="VBoxContainer" unique_id=195532218]
+layout_mode = 2
+text = "Prompt:
+"
+
+[node name="Prompt" type="TextEdit" parent="VBoxContainer" unique_id=1731325648]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+placeholder_text = "Write your prompt here"
+
+[node name="ApiKeyLabel3" type="Label" parent="VBoxContainer" unique_id=976721071]
+layout_mode = 2
+text = "Console Output:
+"
+
+[node name="Output" type="TextEdit" parent="VBoxContainer" unique_id=1166195508]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+placeholder_text = "Output
+"
+editable = false

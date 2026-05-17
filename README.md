@@ -26,16 +26,14 @@ The model list is currently fixed in `addons/aider_wrapper/tool_panel.gd`.
 ### Installation and usage
 
 Changing a script with `gpt-oss`.
+[Aider OpenAI.webm](https://github.com/user-attachments/assets/b0655f6b-e5c1-4cca-b91e-fd3ad40f847f)
 
-Add video link here:
-`<insert installation and usage video URL>`
 
 ### Entity creation demo
 
 Adding an entity with `trinity-large-thinking`.
+[Trinity Add Entity.webm](https://github.com/user-attachments/assets/1f2de28d-1464-404f-877b-4389fee10ccf)
 
-Add video link here:
-`<insert entity creation video URL>`
 
 ## How the workflow looks
 
